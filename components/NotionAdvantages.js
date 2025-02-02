@@ -1,50 +1,63 @@
 export default function NotionAdvantage() {
-    return(
-    <section className="px-10">
-        <section className='flex items-center justify-around'>
-        <div className="max-w-md">
-          <h1 className="text-4xl font-bold mb-4">Organização Simplificada</h1>
-          <p>
-            Tenha todas as suas finanças em um único lugar, facilitando o acompanhamento de gastos, receitas e investimentos de forma clara e organizada.
+  return (
+    <section className="px-4 md:px-10">
+      <section className="flex flex-col md:flex-row items-center justify-around my-8">
+        <div className="max-w-md text-center md:text-left mb-6 md:mb-0">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+            Organização Simplificada
+          </h1>
+          <p className="text-lg">
+            Tenha todas as suas finanças em um único lugar, facilitando o
+            acompanhamento de gastos, receitas e investimentos de forma clara e
+            organizada.
           </p>
         </div>
-        <div className="w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/second-image-main.jpg"
+            src="/first-image-main.jpg"
             alt="Imagem Ilustrativa"
-            className="max-w-[700px] h-auto rounded-2xl"
+            className="max-w-full md:max-w-[700px] h-auto rounded-2xl"
           />
         </div>
-    </section>
-    <section className='flex items-center justify-around'>
-        <div className="w-1/2 flex justify-center">
+      </section>
+
+      <section className="flex flex-col md:flex-row items-center justify-around my-8">
+        <div className="w-full md:w-1/2 flex justify-center order-2 md:order-1">
           <img
-            src="/placeholder.png"
+            src="/second-image-main.png"
             alt="Imagem Ilustrativa"
-            className="max-w-[500px] h-auto"
+            className="max-w-full md:max-w-[500px] h-auto"
           />
         </div>
-        <div className="max-w-md">
-          <h1 className="text-4xl font-bold mb-4">Decisões Financeiras Mais Inteligentes</h1>
-          <p>
-            Acesse relatórios e gráficos detalhados que ajudam a entender seus hábitos de gastos e planejar um futuro financeiro mais seguro.
+        <div className="max-w-md text-center md:text-left mb-6 md:mb-0 order-1 md:order-2">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+            Decisões Financeiras Mais Inteligentes
+          </h1>
+          <p className="text-lg">
+            Acesse relatórios e gráficos detalhados que ajudam a entender seus
+            hábitos de gastos e planejar um futuro financeiro mais seguro.
           </p>
         </div>
-    </section>
-    <section className='flex items-center justify-around'>
-        <div className="max-w-md">
-          <h1 className="text-4xl font-bold mb-4">Acesso Conveniente em Qualquer Lugar</h1>
-          <p>
-            Gerencie suas finanças de qualquer dispositivo, a qualquer momento, com sincronização em tempo real e suporte offline quando necessário.
+      </section>
+
+      <section className="flex flex-col md:flex-row items-center justify-around my-8">
+        <div className="max-w-md text-center md:text-left mb-6 md:mb-0">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
+            Acesso Conveniente em Qualquer Lugar
+          </h1>
+          <p className="text-lg">
+            Gerencie suas finanças de qualquer dispositivo, a qualquer momento,
+            com sincronização em tempo real e suporte offline quando necessário.
           </p>
         </div>
-        <div className="w-1/2 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/placeholder.png"
+            src="/third-image-main.png"
             alt="Imagem Ilustrativa"
-            className="max-w-[500px] h-auto"
+            className="max-w-full md:max-w-[500px] h-auto"
           />
         </div>
+      </section>
     </section>
-    </section>   
-)};
+  );
+}

@@ -5,24 +5,40 @@ import { ChevronDown } from "lucide-react";
 
 const faqItems = [
   {
-    question: "O que exatamente é esse template?",
-    answer: "Este é um template do Notion projetado para ajudar na produtividade e organização.",
+    question: "Para quem é esse template?",
+    answer: "Esse template foi criado para qualquer pessoa que deseja organizar suas finanças de forma simples e eficiente. Ele é ideal para autônomos, empreendedores e quem busca um controle financeiro mais estruturado.",
   },
   {
-    question: "Nunca usei o Notion. Consigo usar mesmo assim?",
-    answer: "Sim! O template é intuitivo e inclui instruções para iniciantes no Notion.",
+    question: "O que está incluído no template?",
+    answer: "O template conta com: O template conta com: ✅ Gestão de Transações (entradas, saídas e transferências) ✅ Controle de Contas Bancárias e Saldo ✅ Gerenciamento de Cartões de Crédito e Faturas ✅ Categorias para organização dos gastos e receitas ✅ Visão Mensal das Finanças",
   },
   {
-    question: "Como esse template pode me ajudar?",
-    answer: "Ele estrutura suas tarefas e metas de forma clara para facilitar sua produtividade.",
+    question: "Como funciona o template na prática?",
+    answer: "Você adiciona suas receitas e despesas à base de dados, e o template organiza automaticamente suas finanças, permitindo uma visão clara dos seus gastos, ganhos e saldo disponível.",
   },
   {
-    question: "Eu já tentei outros métodos. O que faz esse template ser diferente?",
-    answer: "O template combina técnicas comprovadas de produtividade em um único ambiente integrado.",
+    question: "Preciso pagar para usar o Notion?",
+    answer: "Não! O Notion tem um plano gratuito que permite utilizar o template sem custo algum. Caso queira recursos avançados, há planos pagos opcionais.",
   },
   {
-    question: "O template funciona no celular?",
-    answer: "Sim! O Notion tem um aplicativo móvel totalmente compatível com o template.",
+    question: "Posso personalizar o template?",
+    answer: "Sim! O template é totalmente editável, e você pode adaptá-lo conforme suas necessidades.",
+  },
+  {
+    question: "Ele funciona no celular?",
+    answer: "Sim! O template é compatível com computadores, tablets e smartphones, permitindo que você acesse suas finanças de qualquer lugar.",
+  },
+  {
+    question: "O template faz integração com bancos?",
+    answer: "Atualmente, o Notion não tem integração direta com bancos, mas você pode importar extratos manualmente ou usar automações externas como Zapier e Make.",
+  },
+  {
+    question: "O template possui suporte?",
+    answer: "Sim! Se tiver dúvidas ou precisar de ajuda para configurar, você pode entrar em contato com nosso suporte e teremos o maior prazer em te ajudar.",
+  },
+  {
+    question: "Como posso garantir que minhas finanças estão seguras?",
+    answer: "O Notion é uma plataforma segura, e seus dados ficam armazenados apenas na sua conta. Além disso, você pode configurar senhas e autenticação em dois fatores para maior proteção.",
   },
 ];
 

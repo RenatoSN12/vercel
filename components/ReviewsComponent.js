@@ -84,7 +84,7 @@ const ReviewsComponent = () => {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold mb-6 text-center">Customer Reviews</h2>
+      <h2 className="text-3xl text-[#333333] font-bold mb-6 text-center" >Feedbacks</h2>
       <div className="mb-4 flex justify-end">
         <label htmlFor="sortBy" className="mr-2 text-gray-700">Sort by:</label>
         <select
