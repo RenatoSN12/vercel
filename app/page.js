@@ -1,6 +1,8 @@
 import Header from '../components/Header';
 import ReviewsComponent  from '../components/ReviewsComponent';
 import NotionAdvantage from '@/components/NotionAdvantages';
+import Footer from '@/components/Footer'
+import FAQ from '@/components/CommomQuestions';
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
       </section>
       <NotionAdvantage/>
       <ReviewsComponent/>
+      <FAQ/>
+      <Footer/>
     </main>
   );
 }
