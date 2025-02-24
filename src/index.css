@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body,
+#root {
+  background-color: #fffef8;
+  height: 100%
+}
+
+:root {
+  --title-color: #333333;
+  --paragraph-white: #666666;
+}
+
+h1,
+h2 {
+  color: var(--title-color);
+}
+
+p {
+  color: var(--paragraph-white);
+}
