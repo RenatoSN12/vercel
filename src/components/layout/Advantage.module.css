@@ -21,13 +21,11 @@
 }
 
 .slideLeft {
-    animation: slideFromLeft 1s ease-out forwards;
-    animation-delay: 200ms;
+    animation: slideFromLeft 700ms ease-out forwards;
 }
 
 .slideRight {
-    animation: slideFromRight 1s ease-out forwards;
-    animation-delay: 200ms;
+    animation: slideFromRight 700ms ease-out forwards;
 }
 
 .Advantage {
@@ -68,11 +66,14 @@
     }
 
     .Advantage {
-        display: flex;
-        flex-direction: column;
         margin-bottom: 5em;
-        margin-left: 0;
         padding: 0;
+        align-items: start;
+        width: 100%;
     }
 
+    .Info {
+        margin-left: 10%;
+        width: 80%;
+    }
 }
