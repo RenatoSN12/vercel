@@ -3,6 +3,8 @@ import Advantage from "../layout/Advantage"
 import FirstImage from '../../img/first-advantage.jpg'
 import SecondImage from '../../img/second-advantage.png'
 import ThirdImage from '../../img/third-advantage.png'
+import Review from "../layout/Review"
+
 
 import styles from './Home.module.css'
 
@@ -31,6 +33,8 @@ function Home() {
                     com sincronização em tempo real e suporte offline quando necessário."
                 image={ThirdImage}
             />
+
+            <Review/>
         </main>
     )
 }
